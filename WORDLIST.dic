@@ -1,5 +1,3 @@
-synchroneity
-Pb
 abaxial
 abaxially
 abc
@@ -12,7 +10,6 @@ ac
 Acaenoplax
 acanthae
 Acanthodes
-Cenozoic
 Acanthoteuthis
 accretionary
 Acinocricus
@@ -29,12 +26,14 @@ Aculifera
 aculiferan
 Aculiferan
 aculiferans
-Adoudou
 adelphotaxon
+Adoudou
 adpressed
 adpression
+px
 af
 aﬃliations
+Vin
 aﬃnity
 Agaricomycetes
 Agaricomycotina
@@ -107,12 +106,12 @@ apomorphies
 apomorphy
 appendicules
 ar
-archaeocyathid
-archaeocyathids
 aragonitic
 Araneae
 Araneoidea
 Araneomorphae
+archaeocyathid
+archaeocyathids
 Archaeogolfingia
 Archaeolithophyllaceae
 Archaeolithophyllaceans
@@ -193,6 +192,8 @@ biostratinomy
 Biotomography
 bioturbated
 bioturbation
+biozonation
+biozonations
 biozone
 bipartitions
 biramous
@@ -290,6 +291,7 @@ cdef
 CDFGH
 cDNA
 Cenomanian
+Cenozoic
 Cenozoic
 Cephalopoda
 Ceratophyton
@@ -891,6 +893,7 @@ ichnofossil
 ichnofossils
 ichnogenus
 ichnological
+Igoudine
 ij
 Ilyodes
 imbricata
@@ -1001,6 +1004,7 @@ Kulindroplax
 Kunminngella
 Kuonamka
 kutorginates
+kyr
 lability
 labrum
 lacrymans
@@ -1019,6 +1023,7 @@ Lanfear
 langstoni
 Laojieella
 Lapworthella
+Laskar
 latilobus
 lato
 latus
@@ -1255,17 +1260,14 @@ MSTs
 mudcracks
 mudrocks
 Muensterella
-Murero
 multicellular
 multicellularity
 multifurcate
 Multifurcate
 multiporate
 Mummpikia
+Murero
 Museum
-Tiout
-Valdemiedes
-Taroudant
 Mutveiconites
 mycelial
 myces
@@ -1520,6 +1522,7 @@ Paterimitra
 paterinids
 Pattengale's
 Paucipodia
+Pb
 PCoA
 PDRA
 pectinate
@@ -1645,6 +1648,7 @@ Poulsen
 practicals
 praecurrens
 preadaptations
+precessional
 preorder
 Preorder
 preservable
@@ -2039,6 +2043,7 @@ synapomorphies
 synapomorphy
 Synarthrophyton
 synchroneity
+synchroneity
 syrrotia
 sys
 sysbio
@@ -2064,6 +2069,7 @@ taphonomy
 Tardigrada
 tardigrade
 tardigrades
+Taroudant
 taxa
 taxon
 taxon's
@@ -2115,6 +2121,7 @@ tholloni
 tiering
 TILLIER
 tinkerings
+Tiout
 Tipulidae
 tnt
 TNT's
@@ -2215,6 +2222,7 @@ Urechis
 Urnaloricus
 Ust
 Ustilaginomycotina
+Valdemiedes
 Vallothallus
 VanAller
 Vannier
@@ -2289,13 +2297,12 @@ Yunnanoscolex
 Yunnanpriapulus
 YYYY
 ZANOL
-Igoudine
 Zatoń
 zenodo
 Zenodo
 Zhangshania
 Zhifei
-zircons             
+zircons
 Zoologica
 Zoophycos
 δ
