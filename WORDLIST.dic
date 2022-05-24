@@ -169,6 +169,7 @@ bedfords
 beng
 Bengtson
 BGS
+Bija
 Bilateria
 bilaterian
 bilaterians
@@ -233,6 +234,7 @@ breviconic
 Brindabellaspis
 bristleworm
 Broens
+Bryopsidales
 Bryozoa
 bryozoan
 buccal
@@ -251,6 +253,7 @@ Calliotropis
 Calner
 Calvapilosa
 cambricus
+Cambroporella
 Cambrorhytium
 Cambrosipunculus
 Camenella
@@ -375,7 +378,9 @@ cnidarian
 Cobcrephora
 codable
 codecov
+Codiaceae
 codings
+Codium
 codon
 coelomic
 coelosclerites
@@ -448,6 +453,7 @@ Crustacea
 crustose
 Cruziana
 Cryogenian
+Cryptostomata
 ctenidia
 Culmacanthus
 Cupo
@@ -461,6 +467,7 @@ cuticularized
 cutin
 Cyanobacterial
 cyanobacterium
+cyclocrinitids
 CycloNet
 Cycloneuralia
 cycloneuralian
@@ -471,6 +478,8 @@ Cynipidae
 Cyrtosoma
 Dailyatia
 Dakorhachis
+dasycladaelan
+Dasycladales
 dataset's
 dd
 DD
@@ -690,6 +699,7 @@ figspace
 figtree
 fijiensis
 Filipiak
+Fisherites
 flabelligerid
 Flabelligerid
 Flabelligeridae
@@ -787,6 +797,8 @@ Hadimopanella
 Hadranax
 HALANYCH
 Halicryptus
+Halimeda
+Halimedineae
 Haliotis
 Halkieria
 Halkieria's
@@ -1002,6 +1014,7 @@ Kujdanowiaspis
 Kulindroplax
 Kunminngella
 Kuonamka
+Kutorgina
 kutorginates
 kyr
 lability
@@ -1148,6 +1161,7 @@ Maoyan
 marchantioid
 Marchioro
 Marek
+Margaretia
 Marianian
 Marjum
 Markuelia
@@ -1176,6 +1190,7 @@ Meridiolestidan
 Meridiolestidans
 meristic
 Mernmerna
+merom
 Mersenne
 Mesacanthus
 mesofossils
@@ -1680,6 +1695,7 @@ protocerebral
 protocerebrum
 protoconch
 protoconchs
+Protomelission
 protonephridia
 Protonephridia
 protopodite
@@ -1740,6 +1756,7 @@ Rdpack
 Rearr
 rearranger
 reburrus
+receptaculitid
 Rechka
 reconnections
 recurved
@@ -1988,6 +2005,7 @@ Staraya
 statedata
 stdout
 Steganotheca
+stellate
 Stemmier
 stemwardness
 Stemwardness
@@ -2151,6 +2169,7 @@ TreeSetVis
 treespace
 treespaces
 TreeTools
+Tremadocian
 treptichnids
 Treptichnus
 Triarthus
@@ -2308,5 +2327,5 @@ zircons
 Zoologica
 Zoophycos
 δ
-μm
+µm
 µs
