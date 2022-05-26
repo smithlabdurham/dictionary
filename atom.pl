@@ -7,7 +7,9 @@ open(MODIFIED, ">", "settings.json");
 
 my $in_known = 0;
 while (<ORIGINAL>) {
-  if ($_ eq "\t\t\t\"knownWords\": [") {
+  print STDOUT ".";
+  if ("\t\t\t\"knownWords\": \[" =~ $_) {
+    print STDOUT "!!!!!";
     print MODIFIED $_;
     open(DICTIONARY, "<", "WORDLIST.dic") or die $!;
     while (<DICTIONARY>) {
@@ -16,7 +18,7 @@ while (<ORIGINAL>) {
     $in_known = 1;
   }
   if ($in_known) {
-    if ($_ eq "\t\t\t\t\"\"") {
+    if ("\t\t\t\t\"\"" =~ $_) {
       $in_known = 0;
     }
   } else {
