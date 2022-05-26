@@ -29,7 +29,7 @@ jobs:
 
       - name: Modify gist
         run: |
-          wget https://gist.githubusercontent.com/ms609/b4fb9f3bf414261615dc1ba3ae76fd0a/raw/99b367ed777f494969c332396aecee1d6e5eabe0/settings.json gist.json
+          wget https://gist.githubusercontent.com/ms609/b4fb9f3bf414261615dc1ba3ae76fd0a/raw/99b367ed777f494969c332396aecee1d6e5eabe0/settings.json -O gist.json
           perl atom.pl
           cat settings.js
 
