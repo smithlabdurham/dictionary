@@ -18,6 +18,7 @@ while (<ORIGINAL>) {
   if ($in_known) {
     if (/\t\t\t\t\"\"/) {
       $in_known = 0;
+      print MODIFIED $_;
     }
   } else {
     print MODIFIED $_;
