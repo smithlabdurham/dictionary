@@ -1,9 +1,7 @@
 use strict;
 use warnings;
-use File::remote;
- my $remote = new File::Remote;
 
-$gist_path = "https://gist.githubusercontent.com/ms609/b4fb9f3bf414261615dc1ba3ae76fd0a/raw/99b367ed777f494969c332396aecee1d6e5eabe0/settings.json";
+$gist_path = "gist.json";
 $remote->open(original, "<", $gist_path) or die $!;
 open(modified, ">", "settings.json");
 
