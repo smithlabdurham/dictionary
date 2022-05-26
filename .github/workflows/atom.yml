@@ -1,0 +1,42 @@
+name: update-atom-dic
+
+on:
+  push:
+    paths:
+      - "WORDLIST.dic"
+      - ".github/workflows/atom.yml"
+
+jobs:
+  update-atom-dic:
+    runs-on: ubuntu-20.04
+
+    name: Update Atom dictionary
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GIST_PAT: ${{ secrets.GIST_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install gh
+        run: |
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          sudo apt update
+          sudo apt install gh
+
+      - name: Modify gist
+        run: |
+          perl atom.pl
+          cat settings.js
+
+      - name: Deploy
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git fetch
+          git pull
+          git add *.bib
+          git diff-index --quiet HEAD || git commit -m "Sort bib entries"
+          git push
