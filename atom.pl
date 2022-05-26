@@ -1,17 +1,17 @@
 use strict;
 use warnings;
 
-$gist_path = "gist.json";
-$remote->open(original, "<", $gist_path) or die $!;
-open(modified, ">", "settings.json");
+my $gist_path = "gist.json";
+open(ORIGINAL, "<", $gist_path) or die $!;
+open(MODIFIED, ">", "settings.json");
 
-$in_known = 0;
-while (<original>) {
+my $in_known = 0;
+while (<ORIGINAL>) {
   if ($_ == "\t\t\t\"knownWords\": [") {
-    print modified $_;
-    open(dictionary, "<", "WORDLIST.dic") or die $!;
-    while (<dictionary>) {
-      print modified "\t\t\t\t\"", $_, "!\",";
+    print MODIFIED $_;
+    open(DICTIONARY, "<", "WORDLIST.dic") or die $!;
+    while (<DICTIONARY>) {
+      print MODIFIED "\t\t\t\t\"", $_, "!\",";
     }
     $in_known = 1;
   }
@@ -20,6 +20,6 @@ while (<original>) {
       $in_known = 0;
     }
   } else {
-    print modified $_;
+    print MODIFIED $_;
   }
 }
