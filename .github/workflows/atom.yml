@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "WORDLIST.dic"
+      - "atom.pl"
       - ".github/workflows/atom.yml"
 
 jobs:
