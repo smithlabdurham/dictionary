@@ -2,7 +2,7 @@ $gist_path = "https://gist.githubusercontent.com/ms609/b4fb9f3bf414261615dc1ba3a
 open(original, "<", $gist_path) or die $!;
 open(modified, ">", "settings.json")
 
-$in_known = false;
+$in_known = 0;
 while (<original>) {
   if ($_ == "\t\t\t\"knownWords\": [") {
     print modified $_;
@@ -10,11 +10,11 @@ while (<original>) {
     while (<dictionary>) {
       print modified "\t\t\t\t\"", $_, "\",";
     }
-    $in_known = true;
+    $in_known = 1;
   }
   if ($in_known) {
     if ($_ == "\t\t\t\t\"\"") {
-      $in_known = false;
+      $in_known = 0;
     }
   } else {
     print modified $_;
