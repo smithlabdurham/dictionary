@@ -34,4 +34,4 @@ jobs:
 
       - name: Deploy
         run: |
-          gh gist edit b4fb9f3bf414261615dc1ba3ae76fd0a settings.json -f settings.json
+          gh gist edit b4fb9f3bf414261615dc1ba3ae76fd0a -a settings.json
