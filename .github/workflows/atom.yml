@@ -15,7 +15,7 @@ jobs:
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      GIST_PAT: ${{ secrets.GIST_TOKEN }}
+      GH_TOKEN: ${{ secrets.GIST_TOKEN }}
 
     steps:
       - uses: actions/checkout@v2
