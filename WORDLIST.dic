@@ -19,22 +19,13 @@ acritarchs
 Acrocirridae
 acrotretid
 acrotretids
-branchiopod
-branchiopods
-copeopod
-archicerebrum
 Acta
-trophic
-prosocerebrum     
 Actinarctus
 actualistic
 Aculifera
-antennal
 aculiferan
-perivisceral
 Aculiferan
 aculiferans
-stomodaeal
 adelphotaxon
 Adoudou
 adpressed
@@ -94,6 +85,7 @@ Anomalocaridida
 anomalocaridids
 Anomalocaris
 Antennacanthopodia
+antennal
 Antennipatus
 anteriad
 anteriorly
@@ -126,6 +118,7 @@ archaeopriapulid
 Archaeopriapulida
 archaeopriapulids
 Archaeotrypa
+archicerebrum
 Arcuate
 Arecaceae
 Arenicolites
@@ -233,6 +226,8 @@ Brachycera
 bradoriid
 branchiae
 branchial
+branchiopod
+branchiopods
 Branchiostegal
 branchiostegals
 Brasier
@@ -432,6 +427,7 @@ conulariids
 conus
 convergently
 Cooksonia
+copeopod
 Cophenetic
 corallicola
 Corallinaceae
@@ -1266,6 +1262,7 @@ Misspecified
 Misszhouia
 Mk
 ModelFinder
+Mollisonia
 Mollusca
 molluscan
 molluscs
@@ -1589,6 +1586,7 @@ Peripatus
 peristomial
 peristomium
 perithallus
+perivisceral
 Persson
 Petalilium
 petrification
@@ -1706,6 +1704,7 @@ problematica
 problematicum
 prolifica
 Promesacanthus
+prosocerebrum
 prostomial
 prostomium
 Protamphisopus
@@ -2043,6 +2042,7 @@ sternite
 sternites
 Sternites
 stomatogastric
+stomodaeal
 stratigraphers
 stratigraphic
 stratigraphical
@@ -2216,6 +2216,7 @@ Trochozoa
 trochozoan
 trochozoans
 Tromp
+trophic
 Trueman
 Trustw
 Tryblidia
