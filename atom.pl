@@ -11,7 +11,7 @@ while (<ORIGINAL>) {
     print MODIFIED $_;
     open(DICTIONARY, "<", "WORDLIST.dic") or die $!;
     while (<DICTIONARY>) {
-      print MODIFIED "\t\t\t\t\"", $_ =~ s/\n/\",\n/r;
+      print MODIFIED "\t\t\t\t\"", $_ =~ s/\s*\n/\",\n/r;
     }
     $in_known = 1;
   }
