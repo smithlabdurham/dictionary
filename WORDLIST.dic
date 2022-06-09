@@ -85,6 +85,7 @@ Anomalocaridida
 anomalocaridids
 Anomalocaris
 Antennacanthopodia
+antennal
 Antennipatus
 anteriad
 anteriorly
@@ -116,6 +117,8 @@ Archaeolithophyllaceans
 archaeopriapulid
 Archaeopriapulida
 archaeopriapulids
+Archaeotrypa
+archicerebrum
 Arcuate
 Arecaceae
 Arenicolites
@@ -131,6 +134,7 @@ artiopods
 Ascarina
 ascomycotan
 ascospore
+asegmental
 asiatica
 Asilidae
 Asiloidea
@@ -150,6 +154,7 @@ authigenic
 Autolytinae
 avalonensis
 Avalonian
+Avizo
 Avram's
 Aysheaia
 Aysheaia's
@@ -165,6 +170,7 @@ basidium
 Bathyuriscus-Elrathina
 Bayes
 bd
+beamline
 bedfords
 beng
 Bengtson
@@ -223,6 +229,8 @@ Brachycera
 bradoriid
 branchiae
 branchial
+branchiopod
+branchiopods
 Branchiostegal
 branchiostegals
 Brasier
@@ -234,6 +242,7 @@ breviconic
 Brindabellaspis
 bristleworm
 Broens
+bryomorph
 Bryopsidales
 Bryozoa
 bryozoan
@@ -253,6 +262,7 @@ Calliotropis
 Calner
 Calvapilosa
 cambricus
+cambroclave
 Cambroporella
 Cambrorhytium
 Cambrosipunculus
@@ -269,6 +279,7 @@ Canalipalpata
 cancellate
 cancellatum
 Canglangpu
+Canglangpuan
 Canglangpuian
 Capa
 CAPA
@@ -319,6 +330,7 @@ chemostratigraphers
 chemostratigraphic
 chemostratigraphy
 chemostratigraphy
+Chenggong
 Chengjiang
 Chengjiangaspis
 chengjiangensis
@@ -370,6 +382,9 @@ Cladistics
 cladogenesis
 cladogram
 claustration
+clavae
+Zou
+clavate
 clavula
 Cloudina
 clusterings
@@ -418,6 +433,7 @@ conulariids
 conus
 convergently
 Cooksonia
+copeopod
 Cophenetic
 corallicola
 Corallinaceae
@@ -454,6 +470,7 @@ crustose
 Cruziana
 Cryogenian
 Cryptostomata
+CT
 ctenidia
 Culmacanthus
 Cupo
@@ -478,7 +495,10 @@ Cynipidae
 Cyrtosoma
 Dailyatia
 Dakorhachis
+dasyclad
 dasycladaelan
+dasycladalean
+dasycladaleans
 Dasycladales
 dataset's
 dd
@@ -486,6 +506,7 @@ DD
 Debeerius
 decabranchian
 decabranchians
+Deltaclavus
 delthyrium
 denticle
 denticles
@@ -550,6 +571,7 @@ Donoghue
 Donoghue
 Donovaniconus
 Doré
+dorso
 dorso
 dorsolateral
 dorsoventral
@@ -788,6 +810,7 @@ Graticulaceae
 Graticulaceans
 groetlingboensis
 Guanduscolex
+guang
 Guang
 Guangweicaris
 Guillerme
@@ -795,6 +818,7 @@ Guralnick
 Guzhangian
 Hadimopanella
 Hadranax
+haemolymph
 HALANYCH
 Halicryptus
 Halimeda
@@ -820,6 +844,7 @@ Hanic
 Haplocnemata
 Haplophrentis
 Harbord
+Harkless
 Hartigan
 Haszprunar
 Haug
@@ -859,10 +884,13 @@ higginsi
 Hildenbrandia
 Hildenbrandiale
 Hildenbrandiales
+hindgut
 Hirnantian
 HODKINSON
 HOFREITER
 Höhna
+holdfast
+holdfasts
 Holmer
 holophyletic
 holotype
@@ -874,6 +902,7 @@ Hongjingshao
 hongmeia
 Hongshiyanaspis
 Hostinella
+Hou
 Hox
 Hoyal
 Hurdia
@@ -894,6 +923,8 @@ hyperspherical
 hypervolumes
 hyphae
 Hyphal
+hypocerebral
+hypocerebral
 hyponome
 hyporelief
 hypostome
@@ -1020,6 +1051,7 @@ kyr
 lability
 labrum
 lacrymans
+lacunar
 lacustrine
 Læså
 laevigate
@@ -1030,6 +1062,7 @@ Laggania
 Lamellibrachia
 laminae
 Lamsdell
+Lan
 lanceolate
 Lanfear
 langstoni
@@ -1200,6 +1233,7 @@ Mesoperipatus
 mesophyll
 mesopores
 Mesoproterozoic
+mesotheca
 metameres
 metamerically
 metamerism
@@ -1243,6 +1277,7 @@ Misspecified
 Misszhouia
 Mk
 ModelFinder
+Mollisonia
 Mollusca
 molluscan
 molluscs
@@ -1369,6 +1404,7 @@ obolellids
 ocelli
 ocellus
 Ocruranus
+Odaraia
 Odaray
 Odde
 Odontogriphus
@@ -1415,6 +1451,7 @@ Orstenoloricus
 Orstenotubulus
 Orthagoriscus
 orthocerids
+orthodenticle
 orthologous
 Orthotheca
 orthothecid
@@ -1555,6 +1592,7 @@ pelagosphera
 peramorphic
 perigenital
 perikarya
+perineural
 periostracum
 peripatid
 Peripatidae
@@ -1566,6 +1604,7 @@ Peripatus
 peristomial
 peristomium
 perithallus
+perivisceral
 Persson
 Petalilium
 petrification
@@ -1683,6 +1722,7 @@ problematica
 problematicum
 prolifica
 Promesacanthus
+prosocerebrum
 prostomial
 prostomium
 Protamphisopus
@@ -1726,6 +1766,7 @@ PURNELL
 pustular
 pustulose
 px
+Pywackia
 Q'tet
 QD
 QIAO
@@ -1966,6 +2007,7 @@ Solenogastres
 Solenoporaceae
 Solnhofen
 sori
+sp
 sparsa
 sparsity
 Spartobranchus
@@ -2018,6 +2060,7 @@ sternite
 sternites
 Sternites
 stomatogastric
+stomodaeal
 stratigraphers
 stratigraphic
 stratigraphical
@@ -2132,6 +2175,7 @@ thalloid
 Thalloid
 thallus
 Thanahita
+Thanahita
 thelodont
 thelodonts
 Thelodonts
@@ -2178,6 +2222,7 @@ Triarthus
 tricuspida
 trilete
 Trilete
+trilobitomorphs
 trimerellid
 Triplicatella
 Tristychius
@@ -2191,6 +2236,7 @@ Trochozoa
 trochozoan
 trochozoans
 Tromp
+trophic
 Trueman
 Trustw
 Tryblidia
@@ -2255,6 +2301,7 @@ Vecchione
 Vellutini
 Vendomyces
 Vendrasco
+ventro
 ventrolateral
 VERBOOM
 Vermeij
@@ -2289,6 +2336,7 @@ Willi
 williamsoni
 Windyfield
 Wingstrand
+Wirrealpa
 Wiwaxia
 Wiwaxia's
 wiwaxiid
@@ -2309,6 +2357,7 @@ Xystoscolex
 Yicaris
 Yiteng
 Yiteng's
+YKLP
 Yochelcionellid
 Yochelson
 YU

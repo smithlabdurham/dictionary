@@ -1,0 +1,37 @@
+name: update-atom-dic
+
+on:
+  push:
+    paths:
+      - "WORDLIST.dic"
+      - "atom.pl"
+      - ".github/workflows/atom.yml"
+
+jobs:
+  update-atom-dic:
+    runs-on: ubuntu-20.04
+
+    name: Update Atom dictionary
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GIST_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Modify gist
+        run: |
+          wget https://gist.githubusercontent.com/ms609/b4fb9f3bf414261615dc1ba3ae76fd0a/raw/99b367ed777f494969c332396aecee1d6e5eabe0/settings.json -O gist.json
+          perl atom.pl
+
+      - name: Install gh
+        run: |
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          sudo apt update
+          sudo apt install gh
+
+      - name: Deploy
+        run: |
+          gh gist edit b4fb9f3bf414261615dc1ba3ae76fd0a -a settings.json
