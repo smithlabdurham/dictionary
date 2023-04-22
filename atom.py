@@ -3,7 +3,7 @@ import json
 with open('gist.json', 'r') as f:
     data = json.load(f)
 
-with open('WORDLIST.DIC', 'r') as f:
+with open('WORDLIST.dic', 'r') as f:
     lines = [line.strip() for line in f]
 
 data['*']['spell-check']['knownWords'] = lines
