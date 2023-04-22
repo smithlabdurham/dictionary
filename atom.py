@@ -10,5 +10,5 @@ data['*']['spell-check']['knownWords'] = lines
 
 json_string = json.dumps(data, ensure_ascii = False, indent = '\t').encode('utf-8')
 
-with open('settings.json', 'w') as f:
+with open('settings.json', 'wb') as f:
     f.write(json_string)
