@@ -1,6 +1,6 @@
 import json
 
-with open('gist.json', 'r') as f:
+with open('settings.json', 'r') as f:
     data = json.load(f)
 
 with open('WORDLIST.dic', 'r') as f:
@@ -8,5 +8,5 @@ with open('WORDLIST.dic', 'r') as f:
 
 data['*']['spell-check']['knownWords'] = lines
 
-with open('gist.json', 'w') as f:
+with open('settings.json', 'w') as f:
     json.dump(data, f)
