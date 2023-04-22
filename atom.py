@@ -8,5 +8,7 @@ with open('WORDLIST.dic', 'r') as f:
 
 data['*']['spell-check']['knownWords'] = lines
 
+json_string = json.dumps(data, ensure_ascii = False, indent = '\t').encode('utf-8')
+
 with open('settings.json', 'w') as f:
-    json.dump(data, f, indent = '\t')
+    f.write(json_string)
