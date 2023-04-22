@@ -9,4 +9,4 @@ with open('WORDLIST.dic', 'r') as f:
 data['*']['spell-check']['knownWords'] = lines
 
 with open('settings.json', 'w') as f:
-    json.dump(data, f)
+    json.dump(data, f, indent = 4)
