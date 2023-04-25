@@ -3,4 +3,4 @@ with open('WORDLIST.dic', 'r') as f:
     lines.sort()
 
 with open('WORDLIST.dic', 'w') as f:
-    f.writelines(lines)
+    f.write("\n".join(lines))
