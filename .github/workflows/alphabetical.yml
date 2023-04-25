@@ -1,0 +1,39 @@
+name: Alphabeticize
+
+on:
+  push:
+    paths:
+      - "WORDLIST.dic"
+      - "ab.py"
+      - ".github/workflows/alphabetical.yml"
+
+jobs:
+  alphabeticize:
+    runs-on: ubuntu-latest
+
+    name: Alphabeticize dictionary
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GIST_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+
+      - name: Sort lines
+        run: |
+          python ab.py
+          
+      - name: Deploy revised file
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git config --global pull.ff only
+          git fetch
+          git pull --ff-only
+          git add WORDLIST.dic
+          git diff-index --quiet HEAD || git commit -m "Alphabeticize"
+          git push

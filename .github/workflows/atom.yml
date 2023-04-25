@@ -1,11 +1,15 @@
-name: update-atom-dic
+name: Update atom dictionary
 
 on:
   push:
     paths:
-      - "WORDLIST.dic"
       - "atom.py"
       - ".github/workflows/atom.yml"
+  workflow_run: 
+    workflows: ["Alphabeticize"]
+    types:
+      - completed
+  
 
 jobs:
   update-atom-dic:
